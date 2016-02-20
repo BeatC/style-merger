@@ -1,9 +1,9 @@
 'use strict';
 
 var extend = require('../util/extend.js');
-var Rule = require('./Rule.js');
-var Element = require('./Element.js');
-var Selector = require('./Selector.js');
+var Rule = require('../Rule.js');
+var Element = require('../Element.js');
+var Selector = require('../Selector.js');
 
 var CssParser = function (options) {
     options = options || {};
