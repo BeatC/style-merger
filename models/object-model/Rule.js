@@ -6,7 +6,7 @@ var Rule = function (rule, value) {
 }
 
 Rule.prototype.toString = function () {
-    return this.rule + ': ' + this.value + ';';
+    return '\t' + this.rule + ': ' + this.value + ';';
 }
 
 module.exports = Rule;
